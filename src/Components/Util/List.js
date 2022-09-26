@@ -23,7 +23,8 @@ useEffect(()=> {
 
 // delete items in the list
 function deleteItem(id) {
-  setTodos(todos.filter((todo) => todo.id !== id));
+  const arr=todos.filter((todo) => todo.id !== id);
+  setTodos(arr);
 }
 
 // todo input
