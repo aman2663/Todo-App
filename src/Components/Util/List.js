@@ -17,7 +17,7 @@ useEffect(()=> {
 }, []);
 
 useEffect(()=> {
-  if(todos.length > 0)
+  if(todos.length >= 0)
   localStorage.setItem(Local_Storage_Key, JSON.stringify(todos));
 }, [todos]);
 

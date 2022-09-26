@@ -10,6 +10,7 @@ const bodyContainer = {
     padding: '10px',
 }
 
+
 const todoListContainer = {
     display: 'flex',
     justifyContent: 'center',
@@ -29,6 +30,8 @@ function App() {
 
             {/* LIST */}
             <List/>
+           
+            
         </div>
     </div>
   )
