@@ -7,7 +7,7 @@ const bodyContainer = {
     alignItems: 'center',
     height: '100vh',
     backgroundColor: '#282c34',
-    padding: '10px',
+    padding: '10px', 
 }
 
 
